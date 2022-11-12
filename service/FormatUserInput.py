@@ -111,8 +111,3 @@ def FormatUserInput(userInput):
     for i in range(len(res)):
         matrix[i][-1] = res[i] # add the objective function to the matrix
     return matrix
-
-
-userInput = ["Max Z = 3x+y","x-2y<=2","3x+5y=8"]
-matrix = FormatUserInput(userInput)
-print(matrix)
